@@ -1,19 +1,13 @@
 ---
-layout: first
-title:
-feature_text: |
-  ## 星辰大海
-  Jacky's Blog, 生活，技术，人生！
-feature_image: "/sources/imgs/home_img.jpeg"
-# feature_image: "https://unsplash.it/1300/400?image=971"
-# image: "https://unsplash.it/600/400?image=971"
+layout: home
+title: Kunal Baweja
+feature_text: <h2 class="whitetext highlighted">Click Code Repeat</h2>
+image: https://c2.staticflickr.com/6/5727/30497145636_3ecab588f7_z.jpg
 ---
+Hi! I am Kunal Baweja.
 
-> Hi! My name is Anshu Verma
+I look forward to building scalable, secure and accessible technological solutions as a software engineer. I am primarily interested in working on distributed systems and infrastructure for large scale technical challenges.
 
+Aside from computer science I am a hobbyist photographer and like to travel, exploring attractions with my lens. If it interests you please have a look at my work on [Flickr]({{site.contact.flickr}}){:target="_blank"}.
 
-***
->人生的意义不在于何以有生，而在于自己怎么生活，你若情愿把这六尺之躯葬送在白昼做梦之上，
->那就是你这一生的意义。你若发愤振作起来，决心去寻求生命的意义，去创造自己的生命意义，
->那么你活一日便有一日的意义，做一事便添一事的意义，生命无穷，生命的意义也无穷了
->--胡适《人生有何意义》
+Thanks for stopping by, hope you like it here. Please feel free to get in touch !

@@ -2,14 +2,14 @@
 styles: true
 ---
 
-
 // Frameworks & Imports
 @charset "utf-8";
-@import "colors.scss";
+@import "colors";
 @import "normalize";
 @import "sassline-base";
 @import "syntax";
 @import "flex";
+@import "tag";
 
 
 // Structural elements
@@ -68,8 +68,7 @@ body {
   display: inline-block;
   line-height: 0;
   img {
-    width: 4rem;
-    height: 4rem;
+    height: 3rem;
   }
 }
 
@@ -136,6 +135,7 @@ body {
 
 .content {
   width: 100%;
+  text-align: justify;
   @include breakpoint(break-1) {
     width: 62%;
     margin-right: 4%;
@@ -153,6 +153,9 @@ body {
       .figure--full {
         left: 19.4%;
       }
+    }
+    &--center {
+      text-align: center;      
     }
   }
 }
@@ -180,6 +183,7 @@ body {
   }
   .item--post {
     margin-left: 0;
+    padding-bottom: 3%;
   }
 }
 
@@ -296,8 +300,7 @@ input[type="text"],
 input[type="email"],
 input[type="submit"],
 textarea {
-  padding: .6rem 1.2rem;
-  margin-bottom: .6rem;
+  padding: .4rem .4rem;
   transition: color .1s, background-color .1s, border .1s;
   line-height: inherit;
   border: none;
@@ -308,7 +311,7 @@ textarea {
     outline: solid .2rem invert($color__site--accent);
   }
   .icon {
-    margin: 0 0 .35rem;
+    margin: 0 0 0rem;
   }
 }
 
@@ -389,4 +392,11 @@ label {
   hr {
     width: 100%;
   }
+}
+
+
+//social media share css
+//fix up fb share button alignment
+.fb_iframe_widget span {
+  vertical-align: baseline !important;
 }
