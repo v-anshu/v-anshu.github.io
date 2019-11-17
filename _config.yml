@@ -86,7 +86,7 @@ collections:
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
-title: "Kunal Baweja" # Site name or title, also used in jekyll-seo-tag
+title: "Anshu Verma" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/img/kunal-logo.png" # Site logo, also used in jekyll-seo-tag
 
 # Site description and default description, also used in jekyll-seo-tag
